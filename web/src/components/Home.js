@@ -47,6 +47,10 @@ const Home = () => {
     localStorage.setItem("athlete", query)
   }
 
+  function clickSuggestion(e){
+    console.log(e)
+  }
+
   return (
     <>
     {loading === false ? (
@@ -93,30 +97,10 @@ const Home = () => {
              {
               [...Array(searchSuggestions.length)].map((e,i) =>
                
-                <li key = {i} class="first:mt-5 last:rounded-xl border-b border-black py-1 transition duration-200 ease-in-out hover:bg-gray-100">{
+                <li key = {i} onClick={(e) => this.clickSuggestion(e)} class="first:mt-5 last:rounded-xl border-b border-black py-1 transition duration-200 ease-in-out hover:bg-gray-100">{
                   searchSuggestions[i].split(" ")[0].substring(0,1).toUpperCase() + searchSuggestions[i].split(" ")[0].substring(1,) + " " + searchSuggestions[i].split(" ")[1].substring(0,1).toUpperCase() + searchSuggestions[i].split(" ")[1].substring(1,)
                 }</li>
-              )   
-              //[...Array(searchSuggestions.length)].map((e,i) => {
-                //   // if(i < 5){
-                //   console.log("testing" + searchSuggestions[i]);
-                //   <li key = {i} class="rounded-xl border-b border-black py-1 transition duration-200 ease-in-out hover:bg-gray-100">{searchSuggestions[i]}</li>
-    
-                //   //   let temp = searchSuggestions[i].split(" ");
-                //   //   let element = temp[0].substring(0,1).toUpperCase() + temp[0].substring(1,) + " " + temp[1].substring(0,1).toUpperCase() + temp[1].substring(1,)
-            
-                //   //   if(i === 0){
-                //   //     <li key = {i} class="mt-5 border-b border-black py-1 transition duration-200 ease-in-out hover:bg-gray-100">{element}</li>
-                //   //   }
-                //   //   else if(i === 4){
-                //   //     <li key = {i} class="rounded-xl border-b border-black py-1 transition duration-200 ease-in-out hover:bg-gray-100">{element}</li>
-                //   //   }
-                //   //   else{
-                //   //     <li key = {i} class="border-b border-black py-1 transition duration-200 ease-in-out hover:bg-gray-100">{element}</li>
-                //   //   }
-                //   // }
-                // })  
-                           
+              )                  
             }
           
   
