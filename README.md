@@ -5,7 +5,7 @@ Swimmers' Visualization is a passion project aimed towards helping competitive s
 and weaknesses based on their results at competitions. 
 
 ## Technologies
-This is project was created with:
+This project was created with:
 * Tailwind CSS
 * React
 * Recharts
