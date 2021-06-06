@@ -36,3 +36,6 @@ All insights are derived from the athlete's historical performance at competitio
 This table contains all the events the athlete has ever competed in, displaying their personal bests for each event.
 
 
+## Conclusion
+
+Overall, this was a successful attempt in learning new skills within full-stack development. This was my first time working with the MERN stack, getting my hands dirty in developing a REST API, hosting data on the cloud, and creating a component-based front-end. Moreover, Tailwind CSS was a delight due its flexibility. I was able to do everything I needed without creating a stylesheet! Last but not least, it was a pleasure learning Beautiful Soup to scrape data on athlete data.
