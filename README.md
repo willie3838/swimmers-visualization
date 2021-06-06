@@ -11,9 +11,12 @@ This is project was created with:
 * Node.js
 * Express
 * MongoDB (Atlas)
+* Python
+* Beautiful Soup
 
 ## Features
 
+### Search
 
 
 
