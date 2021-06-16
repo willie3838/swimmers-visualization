@@ -1,4 +1,4 @@
-# Swimmers' Visualization
+# Swimmer's Visualization
 
 ## Project Information
 Swimmers' Visualization is a passion project aimed towards helping competitive swimmers at my local swim club visualize their progress, strengths, 
